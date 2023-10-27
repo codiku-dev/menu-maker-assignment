@@ -1,0 +1,14 @@
+{
+  "name": "menu-mapper",
+  "version": "1.0.0",
+  "description": "At Clone, we have an app that allows the user to create and edit a menu, and push it to the delivery platforms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
