@@ -1,0 +1,99 @@
+{
+    "id": "3771f49e-1ceb-4620-8201-2e89a87e6ef7",
+    "name": "Bowlywood Menu",
+    "categories": [
+        {
+            "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+            "name": "Starters ☀️",
+            "items": [
+                {
+                    "id": "147aafc6-54d4-4086-b253-144e62d75a68",
+                    "name": "Pakoras",
+                    "price": 499,
+                    "modifierGroups": [
+                        {
+                            "id": "fc8e0280-dfc9-40ab-86fc-3953b01924a2",
+                            "name": "Choisis tes pakoras (x4)",
+                            "modifiers": [
+                                {
+                                    "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+                                    "name": "Pakora Poulet",
+                                    "price": 0,
+                                    "modifierGroups": []
+                                },
+                                {
+                                    "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+                                    "name": "Pakora Agneau",
+                                    "price": 199,
+                                    "modifierGroups": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "015f41e6-7926-4926-8186-1c29f932d455",
+            "name": "Nos Bowls Signatures 🥙",
+            "items": [
+                {
+                    "id": "6609ea70-81d0-458b-9bf1-f2400dbd4143",
+                    "name": "Bowl Agneau Korma 🐑",
+                    "price": 1699,
+                    "modifierGroups": []
+                }
+            ]
+        },
+        {
+            "id": "bfa02263-5733-4957-a447-c7abe5d604a6",
+            "name": "Nos Formules",
+            "items": [
+                {
+                    "id": "015f41e6-7926-4926-8186-1c29f932d432",
+                    "name": "Formule Bowl",
+                    "price": 1999,
+                    "modifierGroups": [
+                        {
+                            "id": "3e92a9a3-36f4-4ead-ab3c-34de2c7600d5",
+                            "name": "Choisis ton bowl",
+                            "modifiers": [
+                                {
+                                    "id": "c46c84f0-9e7f-4105-9ddb-547016306b19",
+                                    "name": "Bowl Agneau Korma 🐑",
+                                    "price": 0,
+                                    "modifierGroups": []
+                                },
+                                {
+                                    "id": "dde8f950-5173-4af1-ab11-86e853b6fa21",
+                                    "name": "Bowl Biriyani Poulet 🐔",
+                                    "price": "0",
+                                    "modifierGroups": [
+                                        {
+                                            "id": "9cf13d3a-be4f-43d1-a3ee-490c3b7bcc88",
+                                            "name": "Choisis ton accompagnement",
+                                            "modifiers": [
+                                                {
+                                                    "id": "4a9d760a-71bc-42fd-ad88-ee21ecb56c14",
+                                                    "name": "Riz Basmati",
+                                                    "price": 0,
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "id": "e28cfaee-0c23-477b-927f-644ddd1cf8a0",
+                                                    "name": "Riz Pilaf",
+                                                    "price": 0,
+                                                    "modifierGroups": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
