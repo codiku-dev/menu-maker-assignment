@@ -1,6 +1,8 @@
 // This is inspired from the following docs: https://developer.uber.com/docs/eats/references/api/v2/put-eats-stores-storeid-menu
 
 export type Menu = {
+    id: string,
+    title: string,
     categories: Category[];
     items: Item[];
     modifier_groups: ModifierGroup[];
