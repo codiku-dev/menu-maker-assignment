@@ -33,5 +33,6 @@ An Item has the following structure
     - Modifier Group 3
         - Item 1
 
-An Item is a nested structure containing Modifier Groups (aka option groups), which in 
+An Item is a nested structure containing Modifier Groups (aka option groups), which in turn contains a list of items.
 
+![Item structure example](./docs/item_structure.png)
