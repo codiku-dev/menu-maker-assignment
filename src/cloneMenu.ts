@@ -20,5 +20,5 @@ export type Item = {
 export type ModifierGroup = {
     id: string;
     name: string;
-    modifiers: Item[];
+    items: Item[];
 }

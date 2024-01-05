@@ -13,7 +13,7 @@
             ]
         },
         {
-            "id": "015f41e6-7926-4926-8186-1c29f932d455",
+            "id": "64324f9a-c63e-4d04-815f-503f56a45602",
             "title": "Nos Bowls Signatures 🥙",
             "entities": [
                 {
@@ -43,13 +43,13 @@
             ]
         },
         {
-            "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+            "id": "f2f85908-ee32-41b3-b154-d4756c4c99f2",
             "title": "Pakora Agneau",
             "price": 199,
             "modifier_group_ids": []
         },
         {
-            "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+            "id": "fd64178e-de3a-41dc-ad64-bb43fedd45b5",
             "title": "Pakora Poulet",
             "price": 0,
             "modifier_group_ids": []
@@ -101,11 +101,11 @@
             "title": "Choisis tes pakoras (x4)",
             "modifier_options": [
                 {
-                    "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+                    "id": "fd64178e-de3a-41dc-ad64-bb43fedd45b5",
                     "type": "ITEM"
                 },
                 {
-                    "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+                    "id": "f2f85908-ee32-41b3-b154-d4756c4c99f2",
                     "type": "ITEM"
                 }
             ]
