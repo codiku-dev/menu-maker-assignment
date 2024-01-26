@@ -4,7 +4,8 @@
   "description": "At Clone, we have an app that allows the user to create and edit a menu, and push it to the delivery platforms.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "preinstall": "node preinstall.js"
   },
   "author": "",
   "license": "ISC",

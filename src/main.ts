@@ -1,58 +1,54 @@
-import * as clone from "./cloneMenu"
-import * as uber from "./uberMenu"
-import * as json1 from "../data/input/01.json"
-import * as json2 from "../data/input/02.json"
-import * as json3 from "../data/input/03.json"
-import { formatMenuExercise1 } from './exercises/1';
-import { formatMenuExercise2 } from './exercises/2';
-import { formatMenuExercise3 } from './exercises/3';
-import { promises as fsPromises } from 'fs';
+import * as clone from "./cloneMenu";
+import * as json1 from "../data/input/01.json";
+import * as json2 from "../data/input/02.json";
+import * as json3 from "../data/input/03.json";
+import { formatMenuExercise1 } from "./exercises/1";
+import { formatMenuExercise2 } from "./exercises/2";
+import { formatMenuExercise3 } from "./exercises/3";
+import { promises as fsPromises } from "fs";
 
+main();
 
-export function formatMenu(menu: clone.Menu): uber.Menu {
+// Run the 3 exercises and generate each output in src/exercises/<exerciseNumber>.json
 
-console.log('*** EXERCISE 1 ***');
+export function main() {
+  console.log("*** EXERCISE 1 ***");
   const responseExercise1 = formatMenuExercise1(json1);
-  // print the response in console
   // console.dir(responseExercise1, { depth: null });
-  // Write response in responses folder
   writeResponseToFile(
     responseExercise1,
-    './src/exercises/01_exercise_ouput.json',
+    "./src/exercises/01_exercise_ouput.json"
   );
 
-  console.log('*** EXERCISE 2 ***');
+  console.log("*** EXERCISE 2 ***");
   const responseExercise2 = formatMenuExercise2(json2);
   // console.dir(responseExercise2, { depth: null });
   writeResponseToFile(
     responseExercise2,
-    './src/exercises/02_exercise_ouput.json',
+    "./src/exercises/02_exercise_ouput.json"
   );
 
-  console.log('*** EXERCISE 3 ***');
+  console.log("*** EXERCISE 3 ***");
   const responseExercise3 = formatMenuExercise3(json3 as clone.Menu);
   // console.dir(responseExercise3, { depth: null });
   writeResponseToFile(
     responseExercise3,
-    './src/exercises/03_exercise_ouput.json',
+    "./src/exercises/03_exercise_ouput.json"
   );
 
-  return responseExercise3 
+  return responseExercise3;
 }
 
 async function writeResponseToFile(response: any, filename: string) {
-    try {
-      await fsPromises.writeFile(filename, JSON.stringify(response, null, 2));
-      console.log(`Response written to ${filename}`);
-    } catch (error) {
-      console.error('Error writing response to file:', error);
-    }
+  try {
+    await fsPromises.writeFile(filename, JSON.stringify(response, null, 2));
+    console.log(`Response written to ${filename}`);
+  } catch (error) {
+    console.error("Error writing response to file:", error);
   }
-  
+}
 
-
-
-  /*
+/*
 
 
   OLD 
@@ -125,5 +121,3 @@ const output = {
    
     return output
     */
-
-    
