@@ -1,0 +1,41 @@
+{
+    "id": "3771f49e-1ceb-4620-8201-2e89a87e6ef7",
+    "title": "Bowlywood Menu",
+    "categories": [
+      {
+        "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+        "title": "Starters ☀️",
+        "entities": [
+          {
+            "id": "147aafc6-54d4-4086-b253-144e62d75a68",
+            "type": "ITEM"
+          }
+        ]
+      },
+      {
+        "id": "015f41e6-7926-4926-8186-1c29f932d455",
+        "title": "Nos Bowls Signatures 🥙",
+        "entities": [
+          {
+            "id": "6609ea70-81d0-458b-9bf1-f2400dbd4143",
+            "type": "ITEM"
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "147aafc6-54d4-4086-b253-144e62d75a68",
+        "modifier_group_ids": [],
+        "price": 499,
+        "title": "Pakoras"
+      },
+      {
+        "id": "6609ea70-81d0-458b-9bf1-f2400dbd4143",
+        "modifier_group_ids": [],
+        "price": 1699,
+        "title": "Bowl Agneau Korma 🐑"
+      }
+    ],
+    "modifier_groups": []
+  }

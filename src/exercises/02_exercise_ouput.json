@@ -1,0 +1,70 @@
+{
+    "id": "3771f49e-1ceb-4620-8201-2e89a87e6ef7",
+    "title": "Bowlywood Menu",
+    "categories": [
+      {
+        "id": "c3b97817-aaf4-4e44-9f1b-900e22eaa22d",
+        "title": "Starters ☀️",
+        "entities": [
+          {
+            "id": "6eae3084-026e-492a-90c7-a1396c3b5ef4",
+            "type": "ITEM"
+          }
+        ]
+      },
+      {
+        "id": "015f41e6-7926-4926-8186-1c29f932d455",
+        "title": "Nos Bowls Signatures 🥙",
+        "entities": [
+          {
+            "id": "6609ea70-81d0-458b-9bf1-f2400dbd4143",
+            "type": "ITEM"
+          }
+        ]
+      }
+    ],
+    "items": [
+      {
+        "id": "6eae3084-026e-492a-90c7-a1396c3b5ef4",
+        "price": 499,
+        "title": "Pakoras",
+        "modifier_group_ids": [
+          "b7a0a794-921a-4ce9-9466-655c3195626f"
+        ]
+      },
+      {
+        "id": "570c232b-b046-4663-8206-4ce9fb9f4843",
+        "price": 0,
+        "title": "Pakora Poulet",
+        "modifier_group_ids": []
+      },
+      {
+        "id": "e28cfaee-0c23-477b-927f-644ddd1cf8a0",
+        "price": 199,
+        "title": "Pakora Agneau",
+        "modifier_group_ids": []
+      },
+      {
+        "id": "6609ea70-81d0-458b-9bf1-f2400dbd4143",
+        "price": 1699,
+        "title": "Bowl Agneau Korma 🐑",
+        "modifier_group_ids": []
+      }
+    ],
+    "modifier_groups": [
+      {
+        "id": "b7a0a794-921a-4ce9-9466-655c3195626f",
+        "title": "Choisis tes pakoras (x4)",
+        "modifier_options": [
+          {
+            "id": "570c232b-b046-4663-8206-4ce9fb9f4843",
+            "type": "ITEM"
+          },
+          {
+            "id": "e28cfaee-0c23-477b-927f-644ddd1cf8a0",
+            "type": "ITEM"
+          }
+        ]
+      }
+    ]
+  }
